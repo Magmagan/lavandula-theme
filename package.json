@@ -1,28 +1,29 @@
 {
-    "name":  "Theme-Lavender",
-    "displayName":  "Lavender Theme",
-    "description":  "Lavender Theme ported from the Lavender TextMate Theme",
-    "version":  "0.0.5",
-    "publisher":  "gerane",
-    "engines":  {
-                    "vscode":  "^0.10.1"
-                },
-    "categories":  [
-                       "Themes"
-                   ],
-    "icon":  "icon.png",
-    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Lavender/README.md",
-    "repository":  {
-                       "type":  "git",
-                       "url":  "https://github.com/gerane/VSCodeThemes.git"
-                   },
-    "contributes":  {
-                        "themes":  [
-                                       {
-                                           "label":  "Lavender",
-                                           "path":  "./themes/Lavender.tmTheme",
-                                           "uiTheme":  "vs-dark"
-                                       }
-                                   ]
-                    }
+  "name": "lavandula-theme",
+  "displayName": "Lavandula Theme",
+  "description": "A refined theme inspired by the Lavender TextMate Theme",
+  "version": "0.0.1",
+  "publisher": "Magmagan",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "homepage": "https://github.com/Magmagan/lavandula-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Magmagan/lavandula-theme.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lavandula",
+        "path": "./themes/lavandula-theme.json",
+        "uiTheme": "vs-dark"
+      }
+    ]
+  }
 }
