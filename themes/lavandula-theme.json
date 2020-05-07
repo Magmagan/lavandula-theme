@@ -3,12 +3,12 @@
   "settings": [
     {
       "settings": {
-        "background": "#29222E",
+        "background": "#2A2131",
         "caret": "#f8f8f0",
-        "foreground": "#E0CEED",
+        "foreground": "#EDCCEB",
         "invisibles": "#3b3a32",
         "lineHighlight": "#3A2F42",
-        "selection": "#B657FF",
+        "selection": "#430176",
         "selectionForeground": "#ffffff",
         "findHighlight": "#ffe792",
         "findHighlightForeground": "#000000",
@@ -25,6 +25,7 @@
       "name": "Comment",
       "scope": "comment",
       "settings": {
+        "fontStyle": " italic",
         "foreground": "#614e6e"
       }
     },
@@ -32,7 +33,7 @@
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#F5B0EF"
+        "foreground": "#F293C5"
       }
     },
     {
@@ -67,8 +68,55 @@
       }
     },
     {
+      "name": "Ordinary Variable",
+      "scope": [
+        "variable.other.constant",
+        "variable.other.readwrite"
+      ],
+      "settings": {
+        // "fontStyle": "bold",
+        // "foreground": "#fefeff"
+      }
+    },
+    {
+      "name": "Object Variable",
+      "scope": "variable.other.object",
+      "settings": {
+        "foreground": "#9d89e2"
+      }
+    },
+    {
+      "name": "Object Property",
+      "scope": [
+        "variable.object.property",
+        "variable.other.property",
+        "support.variable.property"
+      ],
+      "settings": {
+        "foreground": "#DDAEE2"
+      }
+    },
+    {
+      "name": "This",
+      "scope": [
+        "keyword.other.this",
+        "variable.language.this"
+      ],
+      "settings": {
+        "foreground": "#9d37fc"
+      }
+    },
+    {
       "name": "Keyword",
       "scope": "keyword",
+      "settings": {
+        // "fontStyle": "bold",
+        "foreground": "#DB8AD4"
+      }
+    },
+    {
+      "name": "Type Keyword",
+      "scope": "keyword.type",
       "settings": {
         "foreground": "#8E6DA6"
       }
@@ -87,6 +135,14 @@
       "settings": {
         "fontStyle": "",
         "foreground": "#A29DFA"
+      }
+    },
+    {
+      "name": "Type",
+      "scope": "entity.name.type",
+      "settings": {
+        "fontStyle": "underline",
+        "foreground": "#A379F5"
       }
     },
     {
@@ -109,8 +165,8 @@
       "name": "Function name",
       "scope": "entity.name.function",
       "settings": {
-        "fontStyle": "",
-        "foreground": "#F5B0EF"
+        "fontStyle": "italic",
+        "foreground": "#BF6CD7"
       }
     },
     {
@@ -133,7 +189,7 @@
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "fontStyle": "",
+        "fontStyle": "italic",
         "foreground": "#B657FF"
       }
     },
@@ -435,10 +491,14 @@
       }
     },
     {
-      "name": "CSS Class",
-      "scope": "entity.other.attribute-name.class.css",
+      "name": "CSS Classes/Ids",
+      "scope": [
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.id.css"
+      ],
       "settings": {
-        "foreground": "#F5B0EF"
+        "fontStyle": "italic",
+        "foreground": "#7E7EFA"
       }
     }
   ],
