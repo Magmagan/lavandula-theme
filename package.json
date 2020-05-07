@@ -21,7 +21,7 @@
     "themes": [
       {
         "label": "Lavandula",
-        "path": "./themes/lavandula-theme.json",
+        "path": "./themes/lavandula-color-theme.json",
         "uiTheme": "vs-dark"
       }
     ]
