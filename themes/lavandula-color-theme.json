@@ -34,6 +34,10 @@
     // Brackets, curly brackets & parentheses matches
     "editorBracketMatch.border": "#8d31e3",
     "editorBracketMatch.background": "#8d31e340",
+
+    // Error & lint light bulbs
+    "editorLightBulb.foreground": "#ee144b",
+    "editorLightBulbAutoFix.foreground": "#eeea0f"
   },
   "tokenColors": [
     {
