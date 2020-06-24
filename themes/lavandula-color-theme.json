@@ -37,7 +37,13 @@
 
     // Error & lint light bulbs
     "editorLightBulb.foreground": "#ee144b",
-    "editorLightBulbAutoFix.foreground": "#eeea0f"
+    "editorLightBulbAutoFix.foreground": "#eeea0f",
+
+    // Activity bar
+    "activityBar.background": "#211429",
+    "activityBar.foreground": "#edcceb",
+    "activityBarBadge.background": "#4F2E63",
+    "activityBarBadge.foreground": "#f8f8f0",
   },
   "tokenColors": [
     {
