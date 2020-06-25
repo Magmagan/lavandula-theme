@@ -39,11 +39,24 @@
     "editorLightBulb.foreground": "#ee144b",
     "editorLightBulbAutoFix.foreground": "#eeea0f",
 
+    // Badges
+    "badge.background": "#4F2E63",
+    "badge.foreground": "#f8f8f0",
+
     // Activity bar
     "activityBar.background": "#211429",
     "activityBar.foreground": "#edcceb",
     "activityBarBadge.background": "#4F2E63",
     "activityBarBadge.foreground": "#f8f8f0",
+
+    // Side bar (open activity bar items)
+    "sideBar.border": "#180113",
+    "sideBar.background": "#211429",
+    "sideBar.foreground": "#f8f8f0",
+    "sideBar.dropBackground": "#4F2E63",
+    "sideBarTitle.foreground": "#f8f8f0",
+    "sideBarSectionHeader.background": "#2a2131",
+    "sideBarSectionHeader.foreground": "#f8f8f0",
   },
   "tokenColors": [
     {
