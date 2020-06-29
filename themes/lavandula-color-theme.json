@@ -1,5 +1,5 @@
 {
-  "name": "Lavandula-2",
+  "name": "Lavandula",
   "semanticHighlighting": true,
   "colors": {
     "editor.background": "#2A2131",
@@ -61,7 +61,15 @@
     // Title bar
     "titleBar.activeBackground": "#170B1F",
     "titleBar.activeForeground": "#f8f8f0",
-    "titleBar.inactiveBackground": "#211429"
+    "titleBar.inactiveBackground": "#211429",
+
+    // Editor tabs space
+    "editorGroupHeader.tabsBackground": "#211429",
+
+    // Editor tabs
+    "tab.activeBackground": "#2a1a35",
+    "tab.inactiveBackground": "#35263d",
+    "tab.border": "#00000000",
   },
   "tokenColors": [
     {
