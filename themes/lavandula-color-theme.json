@@ -70,6 +70,20 @@
     "tab.activeBackground": "#2a1a35",
     "tab.inactiveBackground": "#35263d",
     "tab.border": "#00000000",
+
+    // Status bar
+    "statusBar.foreground": "#f8f8f0",
+    "statusBar.background": "#2a1a35",
+    "statusBar.debuggingBackground": "#650044",
+    "statusBar.noFolderBackground": "#8d31e3",
+
+    // Menu bar
+    "menu.background": "#211429",
+    "menu.foreground": "#f8f8f0",
+    "menu.selectionBackground": "#3e224f",
+    "menubar.selectionBackground": "#3e224f",
+    "menu.selectionForeground": "#f8f8f0",
+    "": "",
   },
   "tokenColors": [
     {
